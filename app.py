@@ -14,7 +14,7 @@ tokenizer = T5Tokenizer.from_pretrained("vikkikumar123/text-summariser-t5")
 
 
 
-templates = Jinja2Templates(directory=".")
+templates = Jinja2Templates(directory="templates")
 
 class DialogueInput(BaseModel):
     dialogue: str

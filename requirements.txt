@@ -16,3 +16,5 @@ python-multipart>=0.0.20
 tqdm>=4.67.1
 evaluate>=0.4.5
 rouge-score>=0.1.2
+safetensors
+huggingface-hub
